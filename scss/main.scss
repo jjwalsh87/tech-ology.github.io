@@ -9,7 +9,7 @@ $bg-dark: #2A2A2A;
 $ft-light: #fff;
 
 html { font-size: 1rem; 
-min-width: auto;}
+}
 
 @media (min-width: 576px) {
     html { font-size: 1.25rem; }
@@ -27,6 +27,7 @@ button{
   color: #fff;
 }
 body{
+  
   letter-spacing: 1.5px;
   font-family: Teko;
   p{
