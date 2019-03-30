@@ -1,8 +1,45 @@
-@import url(c:\Users\jimi\Desktop\WalshJames_ProjectWDD\css\font-awesome-color-brand.css);
+@import url(c:\Users\James.Walsh\Desktop\tech-ology.github.io-master\css\font-awesome-color-brand.css);
 @import url("//use.fontawesome.com/releases/v5.8.1/css/all.css'");
+html {
+  font-size: 1rem;
+  min-width: auto;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 2rem;
+  }
+}
+
+button {
+  color: #fff;
+}
+
 body {
   letter-spacing: 1.5px;
   font-family: Teko;
+}
+
+body p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
 }
 
 .card-body-alt {
@@ -161,6 +198,11 @@ header {
   padding-left: 0;
 }
 
+.white-space {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .image {
   position: relative;
   -webkit-filter: brightness(70%);
@@ -179,7 +221,7 @@ header {
 }
 
 .h3-padding {
-  padding-top: 400px;
+  padding-top: 0;
   padding-bottom: 0;
 }
 
